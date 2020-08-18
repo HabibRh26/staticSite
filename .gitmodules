@@ -1,3 +1,7 @@
 [submodule "toha"]
 	path = toha
 	url = https://github.com/HabibRh26/toha.git
+[submodule "public"]
+	path = public
+	url = https://github.com/HabibRh26/HabibRh26.github.io.git
+	branch = master
