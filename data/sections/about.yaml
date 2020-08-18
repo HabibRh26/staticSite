@@ -1,0 +1,78 @@
+# section information
+section:
+  name: About
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# your designation
+designation: CS Undergrad
+# your company information
+company:
+  name: Jahangirnagar University
+  url: "https://juniv.edu/department/cse"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: I am a tech enthusiast, have an inquisitive mind about technology. I love building mobile applications. Fond of leadership and managerial activity. Dream to build something for the society.
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "hremon62@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/HabibRh26"
+
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/habibrh26/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/devHabib26"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/8121365/md-habibur-rahman?tab=profile"
+
+
+# - name: 
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 85
+  color: blue
+- name: Team Work
+  percentage: 90
+  color: yellow
+- name: Communication
+  percentage: 85
+  color: pink
+- name: Hard Working
+  percentage: 85
+  color: green
+- name: Fast Learner
+  percentage: 85
+  color: sky
+- name: Problem Solving
+  percentage: 85
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"

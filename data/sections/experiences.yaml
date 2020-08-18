@@ -1,0 +1,106 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: First Author 
+    url: ""
+    location: Jahangirnagar University 
+    # company overview
+    overview: "My undergrad thesis titled **A  Gaussian  Process  Kernel  for  predicting Epidemiology of Skin Cancer** is a **Machine Learning** focused research project where we developed a novel kernel combination using GPR to predict the **Skin Cancer Epidemiology up to the year 2025**. I am also working on another research project about **Information Credibility on Social Media**."
+  
+  positions:
+  - designation: Research Experience
+    start: Feb 2020
+    end : Aug 2020
+    
+    responsibilities:
+
+    - "Emailing professors to collect the dataset"
+    - "Learning helpful language **(Python)** and using the right package **(Scikit-learn)**"
+    - "Generate results and analyze them"
+    - "Write the research paper and cross checking the citation"
+- company:
+    name: Private Tutor
+    url: ""
+    location: Dhaka 
+    # company overview
+    overview: "During my undergrad, I started working as a **Private Tutor**(part-time) and taught a lot of students from Grade 4 to upto University Admission Candidate.
+I helped them to learn Maths,Physics,Chemistry,Information Communication Technology and English.I enjoy sharing my knowledge with others.I love to explain topics intuitively with relevant practical scenario so that It gets easier to understand and remember."
+  positions:
+  - designation: Teaching Experience
+    start: March 2016
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities: 
+
+    - Make Students understand the concept of the lesson. 
+    - Assist them in completing the Home Tasks.
+    - Find out their mistakes and help them recovering it.
+    - Share useful tips and tricks to crack the examination smoothly
+    - Support as a friend,inspire them and sometimes counsel them in case of uncertainity.
+
+
+- company:
+    name: President
+    # url: "https://jucomputerclub.org/"
+    location: JU Computer Club
+    overview: "I worked as **Secretary General** to my University Computer Club known as [JU Computer Club]( http://jucomputerclub.org/) and later promoted to the **President** of the club.Since the beginning,I found myself very much excited to share a common platform with present enthusiastic members of the club.Currently I am focusing myself to make the organization reach a standard position through my dedication,perseverance and leadership quality."
+  positions:
+  - designation: Leadership Experience
+    start: March 2017
+    end: Present
+    responsibilities:
+    - "Initiated and mentored various skill development events like- **Python Programming**, **GitHub training**,**Android Development**,**Higher study abroad**,**Resume writing workshop** etc."
+    - "Guided in **content writing**, **social media promotion** and **launching technical events** etc."
+    - "Arranged **National CSE Fest** for the first time in the history of our dept where approximately **400** students participated."
+    - "Was a **Question Setter** and **Moderator** at **Quiz Competition** of **JU CSE FEST'19**"
+    - "Supervised **Food Distribution** procedure in **JU CSE FEST'19** for almost **170** participants"
+    - "Worked at the maintenance of Logistics for **Gaming Competition** of **JU CSE FEST'19** sponsored by **Gigabyte**"
+  
+    
+- company:
+    name: Department of CSE,JU
+    url: "https://www.intern.com"
+    location: Jahangirnagar University
+    overview: "During 2nd year of my undergrad, I was the team lead in the **Software Engineering** Course project where I guided 3 other members of my team to reach our goal."
+  positions:
+  - designation: Project Team Lead
+    start: Jun 2015
+    end: Jan 2016
+    responsibilities:
+    - guide them in proper direction.
+    - help them fixing the bugs
+    - assist them in collaboration.
+    - motivate them.
+- company:
+    name: EMK Center
+    url: ""
+    location:  
+    # company overview
+    overview: "EMK Center is one of the most influential Non-profitable organizations in Bangladesh. I was seletected as **EMK Envoy** in sept 2019 and it is really an exciting chance for me to work with fellow mates.Meeting with representatives of different institutions helping me a lot to learn about the culture of varied education domain and exchanging good ideas"
+  positions:
+  - designation: Campus Envoy
+    start: Sept 2019
+    end: present
+    
+    responsibilities:
+    - "Organize EMK featured events in my University arena"
+    - "Help university club events in collaboration with EMK Center"
+    - "Share EMK events in social media handle and groups"
+    - "Participate in Monthly meetings"
+
+
+
+
+
+ 
+

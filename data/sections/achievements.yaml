@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Achievements
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Man Of the Match
+  image: images/achievements/prize1.jpg
+  summary: "Received Man of the Match award for match deciding goal at Semi-final of Intra-Dept Football Tournament at University."
+- title: Quiz Competition
+  image: images/achievements/iut.jpg
+  summary: Got audience Reply award in Quiz Competition of IUT Esonance 2017 Tech Fest.
+
+- title: Talent Pool Scholarship
+  image: images/achievements/class8.jpg
+  summary: "Awarded Talent Pool Scholarship securing 7th position in Intra-thana region at grade 8"
+
+- title: Talent Pool Scholarship
+  image: images/achievements/cls5.jpg
+  summary: "Awarded Talent Pool Scholarship securing 1st position in Intra-thana region at grade 5"
+
+
+- title: Sweden Memorial Quiz
+  image: images/achievements/sweden.jpg
+  summary: "Qualified for 2nd round of Sweden Bangladesh Nobel Memorial Quiz held at 2018"
+#######
+
+# - title: Man Of the Match
+#   image: images/achievements/prize1.jpg
+#   summary: "Received Man of the Match award for match deciding goal at Semi-final of Intra-Dept Football Tournament at University."
+# - title: Quiz Competition
+#   image: images/achievements/iut.jpg
+#   summary: Got audience Reply award in Quiz Competition of IUT Esonance 2017 Tech Fest.
+
+# - title: Talent Pool Scholarship
+#   image: images/achievements/class8.jpg
+#   summary: "Awarded Talent Pool Scholarship securing 7th position in Intra-thana region at grade 8"
+
+# - title: Talent Pool Scholarship
+#   image: images/achievements/cls5.jpg
+#   summary: "Awarded Talent Pool Scholarship securing 1st position in Intra-thana region at grade 5"
+
+
+# - title: Sweden Memorial Quiz
+#   image: images/achievements/sweden.jpg
+#   summary: "Qualified for 2nd round of Sweden Bangladesh Nobel Memorial Quiz held at 2018"
+
+

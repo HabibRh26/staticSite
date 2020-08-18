@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Voluntary
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: JU Computer Club
+  icon: "images/skills/club.jpg"
+  summary: "I worked as **Secretary General** to my University Computer Club known as [JU Computer Club]( http://jucomputerclub.org/) and later promoted to the **President** of the club.Since the beginning,I found myself very much excited to share a common platform with present enthusiastic members of the club.Currently I am focusing myself to make the organization reach a standard position through my dedication,perseverance and leadership quality."
+  url: https://jucomputerclub.org/
+
+- name: EMK Center
+  icon: "images/skills/emk.jpg"
+  summary: "EMK Center is one of the most influential Non-profitable organizations in Bangladesh. I was seletected as **EMK Envoy** in sept 2019 and it is really an exciting chance for me to work with fellow mates.Meeting with representatives of different institutions helping me a lot to learn about the culture of varied education domain and exchanging good ideas"
+  url: "https://www.emkcenter.org/"
+
+- name: Event Volunteering
+  icon: "images/skills/volun.jpg"
+  summary: "I was a volunteer at **JU CSE FEST2019** organized by **JU Computer Club**. I worked in **Quiz Competition**, **Food Distribution**,**Logistics Maintenance**,**Tech Events** etc for almost 400 participants. "
+
+- name: Education Volunteering
+  icon: "images/skills/fb.png"
+  summary: "I am the founder of my Departments first higher study related social media group **JU CSE Abroad** where I share knowledge about IELTS,TOEFL,GRE etc to all the higher study aspirants of my department. I also have been actively associated with some **Higher Study Abroad** groups like **Scholarship Abroad for Bangladeshi Students**,**Scholarship School BD** in **Facebook** as their ambassador and group moderator."
+  url: ""
+
+- name: Fund Raising
+  icon: "images/skills/fund.jpeg"
+  summary: "I was one of the members of a team that raised **fund** for a cancer affected mother of an alumni.We collected fund for **6 days** in a row. Alhamdulillah The patient survived."
+  url: ""
+
+
+- name: Silver Jubilee Celebration
+  icon: "images/skills/ju.png"
+  summary: "I was a **volunteer** in **Silver Jubilee Celebration** of JU CSE DEPT.Served coffee,tea and distributed foods to the alumni."

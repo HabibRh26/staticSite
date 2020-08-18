@@ -1,0 +1,71 @@
+# section information
+section:
+  name: Projects
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Admission Informer App
+  logo: images/projects/app.webp
+  role: Developer
+  timeline: "July 2019 - Oct 2019"
+  repo: https://github.com/HabibRh26/Admission-InformerApp # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "This is a native android application named **Admission Informer** and published to [Play Store](https://bit.ly/343Rlp4). The app is useful for providing authentic university admission test information like admission circular,exam date,form fees,admit card download date,notice etc. Users can also have notification from time to time. This project is developed in **Android Studio** and **Firebase** is used as Database."
+  tags: ["professional", "Android", "App"]
+
+- name: Online Book Sharing System
+  logo: images/projects/book.webp
+  role: Developer
+  timeline: "Feb 2019 - April 2019"
+  repo: https://github.com/HabibRh26/Software-EngineeringProject
+  #url: ""
+  summary: "This is the **Software Engineering Course** group project of my undergrad. We built a Android App following standard software engineering methodologies which aim to provide different features for the bookworms like borrow books,search books,provide books,review on books,having notifications etc. We followed **Agile Methodology** here,Divided the whole task into **3 sprints**. We selected **Scrum Master** and made **User Stories**, **Project Design Document**,**Vision Statement**, **Coding Standard** etc."
+  tags: ["professional", "Android","App"]
+
+- name: Skin Cancer Epidemiology Research Paper
+  role: First Author
+  timeline: "Feb 2020 - Aug 2020"
+  url: ""
+  summary: "This Research is conducted based on the UK govt's [Skin Cancer data](https://data.gov.uk/dataset/b2ec3bdb-a749-4fa3-91ca-b0c150b7fbf8/cancer-registration-epidemiology-of-skin-cancer-c43x-c44x-tumours-in-england-1995-2017) from the year 1995 to 2017. We proposed a **Novel Kernel Combination** of predicting the **Skin Cancer Epidemiology** up to the year **2025**. We used **Scikit-learn** for programming purposes and **Seaborn** library for better visualization of the output."
+  tags: ["academic","iot"]
+
+- name: Gesture Control PC using Arduino
+  logo: images/projects/gesture.jpg
+  role: Contributor
+  timeline: "Aug 2019 - Sept 2019"
+  repo: https://github.com/HabibRh26/Gesture-control-pc-Arduino-project-
+  #url: ""
+  summary: "An **Arduino** based project that is mainly aimed at reducing the effort interaction with computers through input devices using simple gestures. Hand gesture uses Arduino Uno, Ultrasonic Sensor and Laptop to carry out the operation of controlling media playback and volume."
+  tags: ["academic", "iot"]
+
+- name: Kids Education App
+  logo: images/projects/kids.jpg
+  role: Developer
+  timeline: "April 2018 - May 2018"
+  repo: https://github.com/HabibRh26/kidsEducationApp
+  summary: "This is the first [android app](https://drive.google.com/drive/folders/1IWAWeLNbSKV8WXvpAQzsPb6FXZ3zqgT2) that I built as part of **NASSCOM IT-ITES Sector Skill Council (SSC) Certificate (01/2018 – 04/2018) Training of Android Application Development** course conducted by Ernst & Young LLP, India under LICT Project of **Bangladesh Computer Council (BCC)**. It is a very basic and simple android application which is useful for Learning basic English Alphabets,math etc for kids."
+  tags: ["Android","App"]
+
+- name: Medicine Reminder App
+  logo: images/projects/medicare.png
+  role: Developer
+  timeline: "Dec 2019 - Jan 2020"
+  repo: https://github.com/HabibRh26/IEEE-madC-app-Medicine-Reminder-
+  summary: "The **Medicare** app is developed for the submission of **IEEEmadC App Contest**.It is planned to provide various features like- reminding the patient about his or her medication time,tracking the time of pregnant woman,getting appointment with doctor,providing health related suggestions etc.But due to unavoidable circumstances we were not been able to complete the full functional app.It only gives the daily medication reminder now.But we do have a plan to implement the full app in near future."
+  tags: ["Android","App"]
