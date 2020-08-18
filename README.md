@@ -1,1 +1,2 @@
 # staticSite
+contains hugo files
