@@ -1,6 +1,6 @@
 baseURL: https://HabibRh26.github.io
 languageCode: en-us
-title: Habib's Site
+title: Habib's WebSite
 theme: "toha"
 
 # Allow raw html in markdown file
@@ -50,7 +50,7 @@ params:
   # they will be separated by a divider from the main menus.
   customMenus:
   - name: 
-    url: files/05-certification.md
+    url: files/
 
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
@@ -69,5 +69,5 @@ params:
     # a summary of what you do
     summary:
     - I am a CS Undergrad.
-    - I Love Solving Problems.
+    - I Love to Solve Problems.
     - Interested to develop applications.
