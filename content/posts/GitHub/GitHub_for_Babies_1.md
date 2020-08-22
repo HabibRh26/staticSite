@@ -1,7 +1,7 @@
 ---
 title: "GitHub For Babies"
 date: 2020-06-08T06:15:40+06:00
-hero: /images/posts/GitHub_posts/git-cover.jpg
+hero: /images/posts/GitHub_posts/post1/git-cover.jpg
 menu:
   sidebar:
     name: GitHub Part--1
@@ -14,7 +14,7 @@ You Perhaps heard the name of **GitHub** but haven't had the occassion to dive d
 The intention of this post is to make you understand **Git**,**GitHub** and its mechanism like you are a grade 5 student. Warning! If you want to be an expert then I would say you are in wrong place. Let’s start!
 <!--more-->
 
-<!-- ![img1](/images/posts/GitHub_posts/img1.jpeg)  -->
+<!-- ![img1](/images/posts/GitHub_posts/post1/img1.jpeg)  -->
 
 
 
@@ -43,7 +43,7 @@ To begin with,we have to first create a GitHub account through this link. Then w
 </br>
 </br>
 </br>
- > ![img2](/images/posts/GitHub_posts/img2.png) 
+ > ![img2](/images/posts/GitHub_posts/post1/img2.png) 
 </br>
 </br>
 </br>
@@ -52,7 +52,7 @@ The first thing we need to understand is Clone.Clone refers to downloading a rep
 
 </br>
 
- > ![img2](/images/posts/GitHub_posts/img3.png) 
+ > ![img2](/images/posts/GitHub_posts/post1/img3.png) 
 
 </br>
 
@@ -65,7 +65,7 @@ where ``https://github.com/Name500/project_Multimedia.git`` is the link that we 
 When the download finished if you go inside the folder you will see that you have successfully downloaded the repository which you created in GitHub site with a readme file and a git folder.
 </br>
 
-> ![img2](/images/posts/GitHub_posts/img4_1.png) 
+> ![img2](/images/posts/GitHub_posts/post1/img4_1.png) 
 
 </br>
 
@@ -78,11 +78,13 @@ As we cloned the repo and (say)are in the Directory where we cloned the reposito
 You will have a window like below says working tree clean:
 </br>
 
-> ![img2](/images/posts/GitHub_posts/img4.png) 
+> ![img2](/images/posts/GitHub_posts/post1/img4.png) 
 
 </br>
 
-That's all for Today. Thanks for being with me. You can head over to [Part 2 of this series]().
+That's all for Today. Thanks for being with me. You can head over to [Part 2 of this series](https://www.habib25cseju.me/posts/github/github_for_babies_2/)
+</br>
+**P.S**- Cover Image credit goes to [Unsplash](https://unsplash.com/)
 
 
 

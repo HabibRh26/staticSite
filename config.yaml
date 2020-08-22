@@ -1,4 +1,6 @@
 baseURL: https://HabibRh26.github.io
+  # http://example.org/
+  
 languageCode: en-us
 title: Habib's Site
 theme: "toha"
@@ -39,6 +41,8 @@ params:
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/HabibRh26/HabibRh26.github.io
+    # https://github.com/hossainemruz/toha-example-site
+    
 
   # specify whether you want to write blog post or not
   enableBlogPost: true
