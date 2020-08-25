@@ -1,4 +1,5 @@
 baseURL: https://HabibRh26.github.io
+  # https://HabibRh26.github.io
   # http://example.org/
   
 languageCode: en-us
@@ -41,6 +42,7 @@ params:
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/HabibRh26/HabibRh26.github.io
+    # https://github.com/HabibRh26/HabibRh26.github.io
     # https://github.com/hossainemruz/toha-example-site
     
 

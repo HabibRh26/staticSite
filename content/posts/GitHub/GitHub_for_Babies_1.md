@@ -7,7 +7,7 @@ menu:
     name: GitHub Part--1
     identifier: GitHub-post-1
     parent: GitHub
-    weight: 30
+    weight: 105
 ---
 
 You Perhaps heard the name of **GitHub** but haven't had the occassion to dive deep into it, Right? Then I must say you in the right place.

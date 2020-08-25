@@ -7,7 +7,7 @@ menu:
     name: GitHub Part--2
     identifier: GitHub-post-2
     parent: GitHub
-    weight: 30
+    weight: 110
 ---
 Welcome back to Part 2 of the GitHub series. Now, we create a text file named ``index.txt`` and add a line in the text file for example ``print(“hello!”)``. Now perform the previous command again: 
 </br>
