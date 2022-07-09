@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitHub For Babies- Part 2</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/css/main.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="stylesheet" href="/assets/css/navigators/navbar.css" />
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+
+
+<link rel="stylesheet" href="/assets/css/style.css" />
+
+    
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/assets/css/single.css" />
+<link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
+
+
+    
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-XXXXXXXXX-X', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    <nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="https://HabibRh26.github.io">
+Habib&#39;s Site</a>
+
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      </ul>
+    </div>
+  </div>
+  
+
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Blog</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/github/">GitHub Posts</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/github/github_for_babies_1/">GitHub Part--1</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/github/github_for_babies_2/">GitHub Part--2</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/github/github_for_babies_3/">GitHub Part--3</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/website/">Website Domain</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/website/configure_namecheap/">Custom-Domain-GitHub</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://HabibRh26.github.io/images/posts/GitHub_posts/post2/git-cover-2.jpg);'>
+      </div>
+  
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/habib.jpg'/>
+          <h5 class="author-name">Md.Habibur Rahman</h5>
+          <p>June 15, 2020</p>
+        </div>
+  
+        <div class="title">
+          <h1>GitHub For Babies- Part 2</h1>
+        </div>
+  
+        <div class="post-content" id="post-content">
+          <p>Welcome back to Part 2 of the GitHub series. Now, we create a text file named <code>index.txt</code> and add a line in the text file for example <code>print(“hello!”)</code>. Now perform the previous command again:
+</br></p>
+<pre><code>git status
+</code></pre>
+<p>After this command, It will display some message stating <code>untracked files</code> meaning that some changes have been made to this folder which is not tracked by git yet and it is red marked.
+<br>
+</br></p>
+<p><img src="/images/posts/GitHub_posts/post2/img1.png" alt="img1"></p>
+</br>
+<p>Now, we have to upload our updated work to the GitHub online repository. Before that, We have to understand some concepts.
+</br>
+Imagine you are in a super shop where you have to choose the items you like by visiting rows and put the items in the cart. Then finally you have to come back to the counter and pay the price. The cart used here can be called a staging area in comparison to the GitHub concept. Anything you want to pick for buying has to put it in the cart and then you can pay to the counter. Similarly, any file you changed needs to be put in the cart or <code>staging area</code> before you upload it in the GitHub repository. The concept of putting things in the <code>staging area</code> or cart is called Commit and before putting things in the cart you need to choose and choosing the item or file which is called <code>add</code> in terms of git.
+</br></p>
+<p><img src="/images/posts/GitHub_posts/post2/img2.png" alt="img2"></p>
+<br>
+So, we can say there are 3 prerequisites to upload a file to a GitHub remote repository —
+</br>
+1. Initialize (.git folder) first. <br>
+2. Adding the files to the cart(staging area) and <br>
+3. Uploading(pushing) the file to a remote repository <br>
+<p>As we cloned the repository so, it has been already initialized. The next thing we need to do is choosing the file. We have only one file to choose this time but if we have multiple files and want to add all those at a time we can follow the below command:</p>
+<pre><code>git add .
+</code></pre>
+<p>Now that we’ve added(selected) the specific files where the update took place next we have to put the selected item(file) into cart(staging area) which is called <code>commit</code>.The command is given below:</p>
+<pre><code>git commit -m “new line added”
+</code></pre>
+<p>Here, the text within the quotes will be anything related to the work that has been done which helps the user and teammates to understand the changes.
+</br>
+The final step is to upload our work to the GitHub online repository. To do this, the command is:</p>
+<pre><code>git push
+</code></pre>
+<p>Here, push is the word similar to upload. After this command, if we refresh our GitHub page, we will see a full copy uploaded to the online repository.
+</br>
+That&rsquo;s all for today. Thanks for being with me. You can head over to <a href="https://www.habib25cseju.me/posts/github/github_for_babies_3/">Part 3 of this series</a>.
+</br>
+<strong>P.S</strong>- Cover Image credit goes to <a href="https://unsplash.com/">Unsplash</a></p>
+
+        </div>
+  
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/HabibRh26/staticSite/edit/master/content/posts/GitHub/GitHub_for_Babies_2.md">
+                <i class="fas fa-code-branch"></i>
+                Improve This Page
+              </a>
+          </div>
+        
+  
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+    
+      
+      <div class="col-md-6 previous-article">
+        <a href="/posts/website/configure_namecheap/" class="btn btn-outline-info">
+          <span><i class="fas fa-chevron-circle-left"></i> Prev</span>
+          <br />
+          <span>Namecheap Domain to GitHub</span>
+        </a>
+      </div>
+      
+    
+    
+      
+        
+        
+          
+              
+          
+        
+        <div class="col-md-6 next-article">
+          <a href="/posts/github/github_for_babies_1/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>GitHub For Babies</span>
+          </a>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+</div>
+
+      <hr />
+      
+      
+          <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function () {
+    
+    
+    if (window.location.hostname == "localhost") return;
+
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    var disqus_shortname = "does-not-exist";
+    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+<a href="https://disqus.com/" class="dsq-brlink"
+  >comments powered by <span class="logo-disqus">Disqus</span></a
+>
+
+      
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    <footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+        <ul>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#about">About</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#experiences">Experiences</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#projects">Projects</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#achievements">Achievements</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#voluntary">Voluntary</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+            </li>
+            
+        </ul>
+        
+
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact Me</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>hremon62@gmail.com</span></li>
+          
+          <li><span>Phone: </span> <span>&#43;8801885530807</span></li>
+          
+        </ul>
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+        
+        <p>Stay up to date with email notification</p>
+        <form>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="/assets/images/inverted-logo.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4 text-center">© 2020 Copyright.</div>
+      <div class="col-md-4 text-right">
+        <a id="hugo" href="https://gohugo.io/">Powered by Hugo
+        <img
+          src="/assets/images/hugo-logo-wide.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script src="/assets/js/navbar.js"></script>
+<script src="/assets/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/assets/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

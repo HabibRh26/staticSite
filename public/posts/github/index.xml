@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on Habib&#39;s Site</title>
+    <link>https://HabibRh26.github.io/posts/github/</link>
+    <description>Recent content in GitHub on Habib&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2020 08:30:40 +0600</lastBuildDate><atom:link href="https://HabibRh26.github.io/posts/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub For Babies- Part 3</title>
+      <link>https://HabibRh26.github.io/posts/github/github_for_babies_3/</link>
+      <pubDate>Mon, 22 Jun 2020 08:30:40 +0600</pubDate>
+      
+      <guid>https://HabibRh26.github.io/posts/github/github_for_babies_3/</guid>
+      <description>In this part, we will be exploring branching. In the previous lesson, we learned how to upload our work to GitHub, but what if we are in a team where each member is in a different place in a different machine and where we have to edit the same project lots of time. In order to maintain a good collaboration among the team members and dividing their work individually to complete, branching comes in handy.</description>
+    </item>
+    
+    <item>
+      <title>GitHub For Babies- Part 2</title>
+      <link>https://HabibRh26.github.io/posts/github/github_for_babies_2/</link>
+      <pubDate>Mon, 15 Jun 2020 06:15:40 +0600</pubDate>
+      
+      <guid>https://HabibRh26.github.io/posts/github/github_for_babies_2/</guid>
+      <description>Welcome back to Part 2 of the GitHub series. Now, we create a text file named index.txt and add a line in the text file for example print(“hello!”). Now perform the previous command again: 
+git status  After this command, It will display some message stating untracked files meaning that some changes have been made to this folder which is not tracked by git yet and it is red marked.</description>
+    </item>
+    
+    <item>
+      <title>GitHub For Babies</title>
+      <link>https://HabibRh26.github.io/posts/github/github_for_babies_1/</link>
+      <pubDate>Mon, 08 Jun 2020 06:15:40 +0600</pubDate>
+      
+      <guid>https://HabibRh26.github.io/posts/github/github_for_babies_1/</guid>
+      <description>&lt;p&gt;You Perhaps heard the name of &lt;strong&gt;GitHub&lt;/strong&gt; but haven&amp;rsquo;t had the occassion to dive deep into it, Right? Then I must say you in the right place.
+The intention of this post is to make you understand &lt;strong&gt;Git&lt;/strong&gt;,&lt;strong&gt;GitHub&lt;/strong&gt; and its mechanism like you are a grade 5 student. Warning! If you want to be an expert then I would say you are in wrong place. Let’s start!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
